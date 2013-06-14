@@ -1,6 +1,6 @@
 " Name: Luna vim colorscheme
 " Author: Pratheek
-" URL: http://github.com/Pychimp/luna
+" URL: http://github.com/Pychimp/vim-luna
 " (see this url for latest release & screenshots)
 " License MIT (see end of this file)
 " Created: In the middle of Earth's Rotation
