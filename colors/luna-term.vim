@@ -128,10 +128,10 @@ hi LineNr       ctermfg=244  ctermbg=NONE cterm=NONE
 hi VertSplit    ctermfg=0    ctermbg=238  cterm=NONE
 hi VisualNOS    ctermfg=235  ctermbg=227  cterm=NONE
 hi Folded       ctermfg=23   ctermbg=235  cterm=NONE
-hi DiffAdd      ctermfg=231  ctermbg=28   cterm=NONE
-hi DiffChange   ctermfg=231  ctermbg=170  cterm=NONE
-hi DiffDelete   ctermfg=231  ctermbg=160  cterm=NONE
-hi DiffText     ctermfg=231  ctermbg=29   cterm=NONE
+hi DiffAdd      ctermfg=231  ctermbg=22   cterm=NONE
+hi DiffChange   ctermfg=231  ctermbg=30   cterm=NONE
+hi DiffDelete   ctermfg=196  ctermbg=88   cterm=NONE
+hi DiffText     ctermfg=000  ctermbg=214  cterm=NONE
 hi SpellBad     ctermfg=160  ctermbg=228  cterm=NONE
 hi SpellCap     ctermfg=130  ctermbg=228  cterm=NONE
 hi SpellRare    ctermfg=196  ctermbg=228  cterm=NONE

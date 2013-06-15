@@ -155,10 +155,10 @@ hi VertSplit     guifg=#212121 guibg=#474747 gui=NONE
 hi VisualNOS     guifg=#262626 guibg=#ffff4d gui=NONE
 "hi Folded        guifg=#2e4545 guibg=#1e2d2d gui=NONE
 hi Folded        guifg=#426464 guibg=#1e2d2d gui=NONE
-hi DiffAdd       guifg=#ffffff guibg=#009900 gui=NONE
-hi DiffChange    guifg=#ffffff guibg=#da70d6 gui=NONE
-hi DiffDelete    guifg=#ffffff guibg=#cd0000 gui=NONE
-hi DiffText      guifg=#ffffff guibg=#008040 gui=NONE
+hi DiffAdd       guifg=#ffffff guibg=#006600 gui=NONE
+hi DiffChange    guifg=#ffffff guibg=#007878 gui=NONE
+hi DiffDelete    guifg=#ff0101 guibg=#9a0000 gui=NONE
+hi DiffText      guifg=#000000 guibg=#ffb733 gui=NONE
 hi SpellBad      guifg=#d80000 guibg=#ffff9a gui=NONE
 hi SpellCap      guifg=#8b4600 guibg=#ffff9a gui=NONE
 hi SpellRare     guifg=#ff0000 guibg=#ffff9a gui=NONE
