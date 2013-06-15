@@ -34,3 +34,6 @@ Diff
 
 .. image:: https://dl.dropboxusercontent.com/s/289z60xc4kfi9z4/diff.png
 
+***********************************************************************
+
+`Changelog <http://gist.io/5787502>`_
