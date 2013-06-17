@@ -14,6 +14,7 @@ Requirements
 This colourscheme is intended for use on:
 
 -   gVim 7.3 for Linux, Mac and Windows.
+-   Vim 7.3 for Linux, Mac and Windows.
 
 Screenshots
 -----------

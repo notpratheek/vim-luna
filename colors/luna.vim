@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.2
+" Version: 0.0.3
 "
 "
 " TODO: {{{
@@ -187,13 +187,32 @@ hi CursorLineNr  guifg=#87ceeb guibg=NONE    gui=NONE
 hi CursorColumn  guifg=NONE    guibg=#2e2e2e gui=NONE
 hi ColorColumn   guifg=NONE    guibg=#3e3739 gui=NONE
 hi WildMenu      guifg=#002b2b guibg=#ffffff gui=NONE
-
+"
+" }}}
+"
+" Language Specifics: {{{
+" ---------------------------------------------------------------------
+" These are language specifics. These are set explicitly to override the group
+" highlighting provided by vim (Simply to make the language that you're working
+" on more awesome, and fun to work with !)
 " ---------------------------------------------------------------------
 " Python Specifics 
 "hi pythonDot        guifg=#00ffa5 guibg=NONE gui=NONE
 "hi pythonDot        guifg=#ffff31 guibg=NONE gui=NONE
 "hi pythonDot        guifg=#ff0800 guibg=NONE gui=NONE
-hi pythonDot        guifg=#d70a53 guibg=NONE gui=NONE
+hi pythonDot                 guifg=#d70a53 guibg=NONE gui=NONE
+hi pythonParameters          guifg=#bada55 guibg=NONE gui=NONE
+hi pythonClassParameters     guifg=#bada55 guibg=NONE gui=NONE
+hi pythonClass               guifg=#00bcbc guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
+"  Ruby Specifics
+hi rubyInterpolation      guifg=#ff4040 guibg=NONE gui=NONE
+hi rubyMethodBlock        guifg=#f64a8a guibg=NONE gui=NONE
+hi rubyCurlyBlock         guifg=#f64a8a guibg=NONE gui=NONE
+hi rubyDoBlock            guifg=#f64a8a guibg=NONE gui=NONE
+hi rubyBlockExpression    guifg=#f64a8a guibg=NONE gui=NONE
+hi rubyArrayDelimiter     guifg=#00bcbc guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
 " }}}

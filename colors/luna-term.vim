@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.2
+" Version: 0.0.3
 "
 "
 " TODO: {{{
@@ -148,12 +148,32 @@ hi CursorLineNr ctermfg=117  ctermbg=NONE cterm=NONE
 hi CursorColumn ctermbg=236  ctermbg=NONE cterm=NONE
 hi ColorColumn  ctermbg=237  ctermbg=NONE cterm=NONE
 hi WildMenu     ctermfg=23   ctermbg=231  cterm=NONE
-
+"
+" }}}
+"
+" Language Specifics: {{{
+" ---------------------------------------------------------------------
+" These are language specifics. These are set explicitly to override the group
+" highlighting provided by vim (Simply to make the language that you're working
+" on more awesome, and fun to work with !)
 " ---------------------------------------------------------------------
 " Python Specifics 
-hi pythonDot        ctermfg=09 ctermbg=NONE cterm=NONE
+hi pythonDot                ctermfg=161 ctermbg=NONE cterm=NONE
+hi pythonParameters         ctermfg=149 ctermbg=NONE cterm=NONE
+hi pythonClassParameters    ctermfg=149 ctermbg=NONE cterm=NONE
+hi pythonClass              ctermfg=37  ctermbg=NONE cterm=NONE
 "
 " ---------------------------------------------------------------------
+"  Ruby Specifics
+hi rubyInterpolation      ctermfg=203 ctermbg=NONE cterm=NONE
+hi rubyMethodBlock        ctermfg=204 ctermbg=NONE cterm=NONE
+hi rubyCurlyBlock         ctermfg=204 ctermbg=NONE cterm=NONE
+hi rubyDoBlock            ctermfg=204 ctermbg=NONE cterm=NONE
+hi rubyBlockExpression    ctermfg=204 ctermbg=NONE cterm=NONE
+hi rubyArrayDelimiter     ctermfg=37  ctermbg=NONE cterm=NONE
+"
+" ---------------------------------------------------------------------
+"
 " }}}
 "
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
