@@ -166,7 +166,7 @@ hi pythonClass              ctermfg=37  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 "  Ruby Specifics
 hi rubyInterpolation      ctermfg=203 ctermbg=NONE cterm=NONE
-hi rubyMethodBlock        ctermfg=204 ctermbg=NONE cterm=NONE
+hi rubyMethodBlock        ctermfg=216 ctermbg=NONE cterm=NONE
 hi rubyCurlyBlock         ctermfg=204 ctermbg=NONE cterm=NONE
 hi rubyDoBlock            ctermfg=204 ctermbg=NONE cterm=NONE
 hi rubyBlockExpression    ctermfg=204 ctermbg=NONE cterm=NONE

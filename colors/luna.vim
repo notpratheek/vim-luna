@@ -174,7 +174,9 @@ hi StatusLineNC  guifg=#ffffff guibg=#474747 gui=NONE
 " hi PmenuSel      guifg=#fdf6e3 guibg=#2aa198 gui=NONE
 " hi PmenuSbar     guifg=#fdf6e3 guibg=#fdf6e3 gui=NONE
 " hi PmenuThumb    guifg=#fdf6e3 guibg=#fdf6e3 gui=NONE
-hi Pmenu         guifg=#426464 guibg=#002b2b gui=NONE
+" hi Pmenu         guifg=#426464 guibg=#002b2b gui=NONE
+" hi Pmenu         guifg=#609292 guibg=#002b2b gui=NONE
+hi Pmenu         guifg=#7ca9a9 guibg=#002b2b gui=NONE
 hi PmenuSel      guifg=#002b2b guibg=#fdf6e3 gui=NONE
 hi PmenuSbar     guifg=#002b2b guibg=#002b2b gui=NONE
 hi PmenuThumb    guifg=#002b2b guibg=#002b2b gui=NONE
@@ -208,7 +210,9 @@ hi pythonClass               guifg=#00bcbc guibg=NONE gui=NONE
 " ---------------------------------------------------------------------
 "  Ruby Specifics
 hi rubyInterpolation      guifg=#ff4040 guibg=NONE gui=NONE
-hi rubyMethodBlock        guifg=#f64a8a guibg=NONE gui=NONE
+"hi rubyMethodBlock        guifg=#ff8da1 guibg=NONE gui=NONE
+"hi rubyMethodBlock        guifg=#8ddaff guibg=NONE gui=NONE
+hi rubyMethodBlock        guifg=#ffb28d guibg=NONE gui=NONE
 hi rubyCurlyBlock         guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyDoBlock            guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyBlockExpression    guifg=#f64a8a guibg=NONE gui=NONE
