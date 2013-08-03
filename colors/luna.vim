@@ -189,7 +189,7 @@ hi CursorLineNr  guifg=#87ceeb guibg=NONE    gui=NONE
 hi CursorColumn  guifg=NONE    guibg=#2e2e2e gui=NONE
 hi ColorColumn   guifg=NONE    guibg=#3e3739 gui=NONE
 hi WildMenu      guifg=#002b2b guibg=#ffffff gui=NONE
-"
+hi SignColumn    guifg=NONE    guibg=#212121 gui=NONE
 " }}}
 "
 " Language Specifics: {{{
