@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.3
+" Version: 0.0.4
 "
 "
 " TODO: {{{
@@ -148,6 +148,7 @@ hi CursorLineNr ctermfg=117  ctermbg=NONE cterm=NONE
 hi CursorColumn ctermbg=236  ctermbg=NONE cterm=NONE
 hi ColorColumn  ctermbg=237  ctermbg=NONE cterm=NONE
 hi WildMenu     ctermfg=23   ctermbg=231  cterm=NONE
+hi SignColumn   ctermfg=NONE ctermbg=0    cterm=NONE
 "
 " }}}
 "
