@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.4
+" Version: 0.0.5
 "
 "
 " TODO: {{{
@@ -177,4 +177,24 @@ hi rubyArrayDelimiter     ctermfg=37  ctermbg=NONE cterm=NONE
 "
 " }}}
 "
+" Extras: {{{
+" ---------------------------------------------------------------------
+" These are extra parts for highlighting certain external plugins
+" ---------------------------------------------------------------------
+"
+" Startify (https://github.com/mhinz/vim-startify)
+"
+hi StartifyBracket  ctermfg=98  guibg=NONE gui=NONE
+hi StartifyNumber   ctermfg=179 guibg=NONE gui=NONE
+hi StartifySpecial  ctermfg=23  guibg=NONE gui=NONE
+hi StartifyPath     ctermfg=239 guibg=NONE gui=NONE
+hi StartifySlash    ctermfg=238 guibg=NONE gui=NONE
+hi StartifyFile     ctermfg=204 guibg=NONE gui=NONE
+hi StartifyHeader   ctermfg=216 guibg=NONE gui=NONE
+hi StartifyFooter   ctermfg=167 guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
+" }}}
+"
 " vim:foldmethod=marker:foldlevel=0:textwidth=79
+"

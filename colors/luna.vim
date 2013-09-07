@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.4
+" Version: 0.0.5
 "
 "
 " TODO: {{{
@@ -217,6 +217,28 @@ hi rubyCurlyBlock         guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyDoBlock            guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyBlockExpression    guifg=#f64a8a guibg=NONE gui=NONE
 hi rubyArrayDelimiter     guifg=#00bcbc guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
+" }}}
+"
+" Extras: {{{
+" ---------------------------------------------------------------------
+" These are extra parts for highlighting certain external plugins
+" ---------------------------------------------------------------------
+"
+" Startify (https://github.com/mhinz/vim-startify)
+"
+hi StartifyBracket  guifg=#b06bfc guibg=NONE gui=NONE
+hi StartifyNumber   guifg=#bada55 guibg=NONE gui=NONE
+hi StartifySpecial  guifg=#2e8857 guibg=NONE gui=NONE
+hi StartifyPath     guifg=#545454 guibg=NONE gui=NONE
+hi StartifySlash    guifg=#474747 guibg=NONE gui=NONE
+" hi StartifyFile     guifg=#00ffa5 guibg=NONE gui=NONE
+" hi StartifyFile     guifg=#2aa198 guibg=NONE gui=NONE
+" hi StartifyFile     guifg=#f0e68c guibg=NONE gui=NONE
+hi StartifyFile     guifg=#fa8072 guibg=NONE gui=NONE
+hi StartifyHeader   guifg=#f0e68c guibg=NONE gui=NONE
+hi StartifyFooter   guifg=#a0522d guibg=NONE gui=NONE
 "
 " ---------------------------------------------------------------------
 " }}}
