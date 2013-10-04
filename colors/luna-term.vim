@@ -4,14 +4,14 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.5
+" Version: 0.0.6
 "
 "
 " TODO: {{{
 " ---------------------------------------------------------------------
 " -- Clean up !
 " -- create a terminal version
-" -- add more lang specifics 
+" -- add more lang specifics
 " -- (Will think of some more sutff !)
 " }}}
 "
@@ -19,10 +19,10 @@
 " ---------------------------------------------------------------------
 " REQUIREMENTS:
 " ---------------------------------------------------------------------
-" Currently, 
+" Currently,
 "
 " This colourscheme is intended for use on:
-" - Console Vim >= 7.3 for Linux, Mac and Windows. 
+" - Console Vim >= 7.3 for Linux, Mac and Windows.
 "   (Use luna.vim, if you use gvim rather than console vim)
 "
 " ---------------------------------------------------------------------
@@ -38,7 +38,7 @@
 " and unarchive the file.
 " 2. Move `colors/luna.vim` to your `.vim/colors` directory.
 " 3. Move `colors/luna-term.vim` to your `.vim/colors` directory.
-" 4. Enjoy ! 
+" 4. Enjoy !
 "
 " ---------------------------------------------------------------------
 " HIGHLY RECOMMENDED PATHOGEN INSTALLATION OPTION:
@@ -65,7 +65,7 @@
 " syntax enable
 " colorscheme luna
 " }}}
-" 
+"
 " Colorscheme initialization "{{{
 " ---------------------------------------------------------------------
 set background=dark
@@ -78,13 +78,13 @@ let g:colors_name = "luna-term"
 "
 " Console vim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
-" First, the Normal 
+" First, the Normal
 hi Normal        ctermfg=254 ctermbg=0 cterm=NONE
 " ---------------------------------------------------------------------
-" The Languages stuff 
+" The Languages stuff
 hi Title         ctermfg=195 ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
-hi Comment       ctermfg=238  ctermbg=NONE cterm=NONE
+hi Comment       ctermfg=240  ctermbg=NONE cterm=NONE
 " ---------------------------------------------------------------------
 hi Constant      ctermfg=227  ctermbg=NONE cterm=NONE
 hi String        ctermfg=74   ctermbg=NONE cterm=NONE
@@ -158,7 +158,7 @@ hi SignColumn   ctermfg=NONE ctermbg=0    cterm=NONE
 " highlighting provided by vim (Simply to make the language that you're working
 " on more awesome, and fun to work with !)
 " ---------------------------------------------------------------------
-" Python Specifics 
+" Python Specifics
 hi pythonDot                ctermfg=161 ctermbg=NONE cterm=NONE
 hi pythonParameters         ctermfg=149 ctermbg=NONE cterm=NONE
 hi pythonClassParameters    ctermfg=149 ctermbg=NONE cterm=NONE

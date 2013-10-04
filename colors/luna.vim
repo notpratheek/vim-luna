@@ -4,14 +4,14 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.5
+" Version: 0.0.6
 "
 "
 " TODO: {{{
 " ---------------------------------------------------------------------
 " -- Clean up !
 " -- create a terminal version
-" -- add more lang specifics 
+" -- add more lang specifics
 " -- (Will think of some more sutff !)
 " }}}
 "
@@ -19,7 +19,7 @@
 " ---------------------------------------------------------------------
 " REQUIREMENTS:
 " ---------------------------------------------------------------------
-" Currently, 
+" Currently,
 "
 " This colourscheme is intended for use on:
 " - gVim >= 7.3 for Linux, Mac and Windows. (Since, all colours are in hex
@@ -37,7 +37,7 @@
 " 1. Download the luna distribution (as a zip archive, available on the github page)
 " and unarchive the file.
 " 2. Move `colors/luna.vim` to your `.vim/colors` directory.
-" 3. Enjoy ! 
+" 3. Enjoy !
 "
 " ---------------------------------------------------------------------
 " HIGHLY RECOMMENDED PATHOGEN INSTALLATION OPTION:
@@ -64,7 +64,7 @@
 " syntax enable
 " colorscheme luna
 " }}}
-" 
+"
 " Colorscheme initialization "{{{
 " ---------------------------------------------------------------------
 set background=dark
@@ -77,13 +77,13 @@ let g:colors_name = "luna"
 "
 " Gvim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
-" First, the Normal 
+" First, the Normal
 hi Normal        guifg=#e5e5e5 guibg=#212121 gui=NONE
 " ---------------------------------------------------------------------
-" The Languages stuff 
+" The Languages stuff
 hi Title         guifg=#c9f0fa guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
-hi Comment       guifg=#474747 guibg=NONE    gui=NONE
+hi Comment       guifg=#616161 guibg=NONE    gui=NONE
 " ---------------------------------------------------------------------
 " hi Constant      guifg=#e3588d guibg=NONE    gui=NONE
 hi Constant      guifg=#fff159 guibg=NONE    gui=NONE
@@ -198,7 +198,7 @@ hi SignColumn    guifg=NONE    guibg=#212121 gui=NONE
 " highlighting provided by vim (Simply to make the language that you're working
 " on more awesome, and fun to work with !)
 " ---------------------------------------------------------------------
-" Python Specifics 
+" Python Specifics
 "hi pythonDot        guifg=#00ffa5 guibg=NONE gui=NONE
 "hi pythonDot        guifg=#ffff31 guibg=NONE gui=NONE
 "hi pythonDot        guifg=#ff0800 guibg=NONE gui=NONE
