@@ -4,7 +4,7 @@
 " (see this url for latest release & screenshots)
 " License: MIT (see LICENSE.rst in the root of project)
 " Created: In the middle of Earth's Rotation
-" Version: 0.0.6
+" Version: 0.0.7
 "
 "
 " TODO: {{{
@@ -79,7 +79,7 @@ let g:colors_name = "luna-term"
 " Console vim Highlighting: (see :help highlight-groups)"{{{
 " ---------------------------------------------------------------------
 " First, the Normal
-hi Normal        ctermfg=254 ctermbg=0 cterm=NONE
+hi Normal        ctermfg=254 ctermbg=234 cterm=NONE
 " ---------------------------------------------------------------------
 " The Languages stuff
 hi Title         ctermfg=195 ctermbg=NONE cterm=NONE
@@ -148,7 +148,7 @@ hi CursorLineNr ctermfg=117  ctermbg=NONE cterm=NONE
 hi CursorColumn ctermbg=236  ctermbg=NONE cterm=NONE
 hi ColorColumn  ctermbg=237  ctermbg=NONE cterm=NONE
 hi WildMenu     ctermfg=23   ctermbg=231  cterm=NONE
-hi SignColumn   ctermfg=NONE ctermbg=0    cterm=NONE
+hi SignColumn   ctermfg=NONE ctermbg=234  cterm=NONE
 "
 " }}}
 "
@@ -192,6 +192,14 @@ hi StartifySlash    ctermfg=238 guibg=NONE gui=NONE
 hi StartifyFile     ctermfg=204 guibg=NONE gui=NONE
 hi StartifyHeader   ctermfg=216 guibg=NONE gui=NONE
 hi StartifyFooter   ctermfg=167 guibg=NONE gui=NONE
+"
+" ---------------------------------------------------------------------
+"
+" Signify (https://github.com/mhinz/vim-signify)
+"
+hi SignifySignAdd    ctermfg=40  ctermbg=234 cterm=NONE
+hi SignifySignChange ctermfg=214 ctermbg=234 cterm=NONE
+hi SignifySignDelete ctermfg=196 ctermbg=234 cterm=NONE
 "
 " ---------------------------------------------------------------------
 " }}}
